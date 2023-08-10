@@ -13,6 +13,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 // cdk
 // https://material.angular.io/cdk/categories
 import { DragDropModule } from '@angular/cdk/drag-drop';
@@ -21,6 +22,7 @@ const ImportExports = [
   CommonModule,
   FormsModule,
   // components
+  MatButtonModule,
   MatSliderModule,
   MatSelectModule,
   MatDialogModule,
